@@ -14,6 +14,7 @@ const getEnv = (key: string): string => {
 
 export const env = {
   port: Number(getEnv('PORT')),
+  jwtSecret:getEnv('JWT_SECRET'),
   db: {
     host: getEnv('DB_HOST'),
     port: Number(getEnv('DB_PORT')),
