@@ -6,7 +6,7 @@ CREATE TABLE subscriptions (
     status IN ('trialing', 'active', 'past_due', 'canceled', 'expired')
   ),
   started_at TIMESTAMPTZ NOT NULL,
-  trail_ends_at TIMESTAMPTZ,
+  trial_ends_at TIMESTAMPTZ,
   ends_at TIMESTAMPTZ,
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
