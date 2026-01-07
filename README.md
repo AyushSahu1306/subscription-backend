@@ -1,7 +1,4 @@
 # Backend Subscriptions & Payments System
-
-> **Note**: This project was built as a learning-focused, production-oriented backend. The goal was correctness, safety under concurrency, and clean separation of concerns — not speed or feature bloat.
-
 ---
 
 ## Overview
