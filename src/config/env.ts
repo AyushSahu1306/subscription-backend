@@ -22,4 +22,6 @@ export const env = {
     user: getEnv('DB_USER'),
     password: getEnv('DB_PASSWORD'),
   },
+  paymentWebhookSecret: getEnv('PAYMENT_WEBHOOK_SECRET'),
+
 };
